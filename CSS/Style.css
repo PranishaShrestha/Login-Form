@@ -1,0 +1,56 @@
+/*DEFINING UNIVERSAL CSS */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto",sans-serif;
+}
+
+/* DEFINING THE BODY CSS */
+body{
+    display: flex;
+    justify-content: center;
+    line-height: 7px;
+    min-height: 95vh;
+    flex-direction: column;
+    align-items: center;
+}
+/* END OF BODY CSS */
+
+/* MAIN CSS */
+.main{
+    display: flex;
+    background-color:#0054f15c ;
+    border-radius: 2rem;
+    padding:  2rem;  
+    width: 700px;
+    justify-content: center;
+}
+/* END OF MAIN CSS*/
+
+/* DEFINING CONTENT CSS */
+.content{
+display: flex;
+justify-content: center;
+position: absolute;
+top:18%;
+}
+
+/* LOGIN BUTTON */
+.button{
+    padding: 1rem;
+    justify-content: center;
+}
+#btn{
+    padding: 1rem;
+    width: 300px;
+    border:none;
+    color: #fff;
+    border-radius: 25px;
+    background-color:#524e53d4;
+}
+/* END OF LOGIN FORM */
+
+/* FORM CSS */
+.form{
+    padding: 0.6rem;
+}
