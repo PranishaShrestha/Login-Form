@@ -1,57 +1,106 @@
 /*DEFINING UNIVERSAL CSS */
-*{
+* {
     padding: 0;
     margin: 0;
-    font-family: "Roboto",sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 /* DEFINING THE BODY CSS */
-body{
+body {
     display: flex;
     justify-content: center;
     line-height: 7px;
     min-height: 95vh;
     flex-direction: column;
     align-items: center;
-    background-image: linear-gradient(rgba(71, 14, 183, 0.397),rgba(69, 27, 9, 0.696),rgba(89, 3, 82, 0.49));
+    background-image: linear-gradient(rgba(71, 14, 183, 0.397), rgba(69, 27, 9, 0.696), rgba(89, 3, 82, 0.49));
 }
+
 /* END OF BODY CSS */
 
 /* MAIN CSS */
-.main{
+.main {
     display: flex;
-    background-color:#8e50e65c ;
+    background-color: #8e50e65c;
     border-radius: 2rem;
-    padding:  2rem;  
+    padding: 2rem;
     width: 700px;
     justify-content: center;
 }
+
 /* END OF MAIN CSS*/
 
 /* DEFINING CONTENT CSS */
-.content{
-display: flex;
-justify-content: center;
-position: absolute;
-top:12%;
+.content {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 12%;
+}
+
+.content svg{
+    background-color: #f0f0f0c9;
+    border-radius: 2.7rem;
+    margin-top: 1rem;
+    
 }
 
 /* LOGIN BUTTON */
-.button{
+.button {
     padding: 1rem;
     justify-content: center;
 }
-#btn{
+
+#btn {
     padding: 1rem;
     width: 300px;
-    border:none;
+    border: none;
     color: #fff;
     border-radius: 25px;
-    background-color:#524e53d4;
+    background-color: #524e53d4;
 }
+#btn:hover{
+    background-color: #fff;
+    color: #524e53d4;
+    transition: all 1s;
+}
+
 /* END OF LOGIN FORM */
 
 /* FORM CSS */
-.form{
+.form {
     padding: 0.6rem;
+    position: relative;
 }
+
+.wrap a {
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+.wrap span {
+    margin-left: 1rem;
+}
+
+.form svg {
+    position: absolute;
+    margin-top: 1.3rem;
+}
+
+/* #password,
+#first {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+} */
+
+input[type=password],
+input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    text-align: center;
+}
+
+
+/* END OF FORM CSS */
